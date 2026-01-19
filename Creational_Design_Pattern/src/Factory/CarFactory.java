@@ -1,8 +1,5 @@
 package Factory;
 
-import Factory.Car;
-import Factory.Vehicle;
-
 public class CarFactory{
     public Vehicle createVehicle(String type) {
         if (type == "car") return new Car();
